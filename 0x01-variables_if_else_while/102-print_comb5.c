@@ -18,7 +18,7 @@ int main(void)
 			putchar((ch / 10) + '0');
 			putchar((ch % 10) + '0');
 			putchar(' ');
-			putchar((n / 10) + '0' );
+			putchar((n / 10) + '0');
 			putchar ((n % 10) + '0');
 
 			if (ch == 98 && n == 99)
