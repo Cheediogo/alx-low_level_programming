@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i = 1;
-
+	
 	while (i <= 100)
 	{
 		if (i % 3 == 0)
@@ -30,11 +30,10 @@ int main(void)
 		}
 		if (i != 100)
 		{
-			_putchar(' ');
+			putchar(' ');
 		}
-
 		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
