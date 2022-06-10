@@ -30,11 +30,11 @@ int main(void)
 		}
 		if (i != 100)
 		{
-			putchar(' ');
+			_putchar(' ');
 		}
 
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
