@@ -6,9 +6,9 @@
  * Return: 0
  */
 
-void rev_string(char *s);
+void rev_string(char *s)
 {
-	int (len, i, half);
+	int len, i, half;
 	char temp;
 
 	for (len = 0; s[len] != '\0'; len++)
